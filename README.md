@@ -6,3 +6,5 @@ The core of the balancing circuitry consists of four identical active shunt modu
 As the voltage across an individual cell rises and hits the critical 4.2V maximum threshold, its corresponding TL431LP begins to conduct. This conduction pulls current from the base of a paired BD140 PNP power transistor, activating it to open a parallel bypass path. Consequently, the charging current is successfully routed around the fully charged cell and safely dissipated as heat through a series array of 1N4007 diodes.
 
 Dedicated LEDs on each module provide immediate visual feedback when this bypass circuit is active. By seamlessly shunting current away from fully charged cells, this custom BMS prevents overvoltage degradation while maintaining the continuous series charging loop. This mechanism ensures that any remaining under-charged cells can safely reach their maximum capacity without risking damage to the rest of the pack.
+
+<img width="1600" height="1204" alt="image" src="https://github.com/user-attachments/assets/8bbb76bd-9d47-48a8-aa79-8a12bc7c8fd8" />
