@@ -2,7 +2,7 @@
 
 Custom 4-cell (16.8V) Lithium-Ion Battery Management System PCB designed in **KiCad**, featuring an analog active shunt cell-balancing topology, reverse-polarity input protection, and adjustable constant-voltage regulation.
 
-![Assembled 4S BMS PCB](docs/assembled_board.jpg)
+![Assembled 4S BMS PCB](docs/assembled_board.png)
 
 ---
 
